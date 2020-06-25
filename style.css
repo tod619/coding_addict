@@ -38,6 +38,23 @@ body {
   background: #2b98f0;
 }
 
+#menu-btn {
+  padding: 5px;
+  border: 2px solid #2b98f0;
+  cursor: pointer;
+  align-self: center;
+}
+
+.bar1,
+.bar2,
+.bar3 {
+  height: 5px;
+  width: 35px;
+  background-color: #2b98f0;
+  margin: 5px 0;
+  transition: transform 1s ease;
+}
+
 nav {
   flex: 0 0 auto;
 }
