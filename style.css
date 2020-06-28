@@ -149,4 +149,17 @@ nav ul li a:hover {
 }
 /* End: Navbar Media Queries  */
 
+/* Start: Banner  Section*/
+#banner {
+  background-image: url(images/banner-img.jpeg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* End: Banner Secction */
+
 /* End: Header */
