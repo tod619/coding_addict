@@ -151,7 +151,8 @@ nav ul li a:hover {
 
 /* Start: Banner  Section*/
 #banner {
-  background-image: url(images/banner-img.jpeg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)),
+    url(images/banner-img.jpeg);
   background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat;
@@ -175,6 +176,12 @@ nav ul li a:hover {
   width: 200px;
   margin: 10px auto;
   border: 3px solid #2b98f0;
+}
+
+.banner-subtitle {
+  margin: 20px 0 40px 0;
+  text-transform: capitalize;
+  font-size: 25px;
 }
 /* End: Banner Secction */
 
