@@ -183,6 +183,23 @@ nav ul li a:hover {
   text-transform: capitalize;
   font-size: 25px;
 }
+
+#banner-box a {
+  display: inline-block;
+  padding: 10px;
+  font-size: 40px;
+  text-decoration: none;
+  color: #f5f5f5;
+  background: #2b98f0;
+  border: 3px solid #2b98f0;
+  border-radius: 5px;
+  transition: background 3s ease, border 0.5s ease;
+}
+
+#banner-box a:hover {
+  background: transparent;
+  border: 3px solid #f5f5f5;
+}
 /* End: Banner Secction */
 
 /* End: Header */
