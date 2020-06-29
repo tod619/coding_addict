@@ -329,4 +329,23 @@ nav ul li a:hover {
   background: transparent;
   border: solid 2px #f5f5f5;
 }
+
+/* Start: Media Queries */
+@media screen and (min-width: 770px) {
+  #about {
+    display: flex;
+  }
+
+  #about-text {
+    min-height: 40vh;
+    flex: 0 0 60%;
+  }
+
+  #about-video {
+    min-height: 40vh;
+    flex: 0 0 40%;
+  }
+}
+/* End: Media Queries */
+
 /* End: About Section */
