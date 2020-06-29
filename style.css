@@ -349,3 +349,40 @@ nav ul li a:hover {
 /* End: Media Queries */
 
 /* End: About Section */
+
+/* Start: Services Section */
+#services {
+  padding: 40px;
+}
+
+.service {
+  margin: 40px 0;
+  display: flex;
+}
+
+.service-icon .fa {
+  font-size: 60px;
+  color: #2b98f0;
+  margin-right: 20px;
+}
+
+.service-subtitle {
+  text-transform: capitalize;
+  color: #2b98f0;
+  font-size: 20px;
+}
+
+.service-info {
+  margin-top: 10px;
+  line-height: 1.5;
+}
+
+.service:hover .fa,
+.service:hover .service-subtitle {
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.service:hover .service-info {
+  color: rgb(147, 147, 147);
+}
+/* End: Services Section */
