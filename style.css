@@ -527,3 +527,36 @@ nav ul li a:hover {
 /* End: Media Query */
 
 /* End: Portfolio Section */
+
+/* Start: Numbers Section */
+#numbers {
+  padding: 40px;
+}
+
+.number {
+  margin: 20px 0;
+  text-align: center;
+  cursor: pointer;
+  transition: transform 2s ease;
+}
+
+.number:hover {
+  transform: translateY(-10px);
+}
+
+.number .fa {
+  font-size: 60px;
+  color: #2b98f0;
+}
+
+.number h2 {
+  font-size: 40px;
+  margin: 10px 0;
+  font-weight: 900;
+}
+
+.number h5 {
+  font-size: 23px;
+  color: #c9c9c9;
+}
+/* End: Numbers Section */
