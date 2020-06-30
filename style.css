@@ -505,4 +505,25 @@ nav ul li a:hover {
   font-size: 40px;
   margin-right: 10px;
 }
+
+/* Start: Media Query */
+@media screen and (min-width: 576px) {
+  .portfolio-center {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .work {
+    flex: 0 0 calc(50% - 2em);
+  }
+}
+
+@media screen and (min-width: 776px) {
+  .work {
+    flex: 0 0 calc(33.3% - 2em);
+  }
+}
+/* End: Media Query */
+
 /* End: Portfolio Section */
