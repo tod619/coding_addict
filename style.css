@@ -479,4 +479,25 @@ nav ul li a:hover {
   color: #2b89f0;
   text-decoration: none;
 }
+
+.section-btn {
+  text-align: center;
+  margin: 20px 0 10px 0;
+}
+
+.section-btn a {
+  display: inline-block;
+  text-decoration: none;
+  padding: 0.5em;
+  font-size: 30px;
+  color: #f5f5f5;
+  background: #2b98f0;
+  border-radius: 10px;
+  transition: background 2s ease, color 2s ease;
+}
+
+.section-btn a:hover {
+  color: #2b98f0;
+  background: #f5f5f5;
+}
 /* End: Portfolio Section */
