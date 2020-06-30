@@ -407,3 +407,32 @@ nav ul li a:hover {
 /* End: Services Media Query */
 
 /* End: Services Section */
+
+/* Start: Portfolio Section */
+#portfolio {
+  padding: 40px;
+  background: #c9c9c9;
+}
+
+.work {
+  position: relative;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+  max-height: 300px;
+  border-radius: 10px;
+  margin: 10px 0;
+  overflow: hidden;
+}
+
+#portfolio img {
+  display: block;
+  width: 100%;
+  max-height: 300px;
+  cursor: pointer;
+  opacity: 1;
+  transition: opacity 2s ease;
+}
+
+#portfolio img:hover {
+  opacity: 0.4;
+}
+/* End: Portfolio Section */
