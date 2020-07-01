@@ -604,4 +604,37 @@ nav ul li a:hover {
   display: flex;
   justify-content: space-between;
 }
+
+.footer-info h3 {
+  color: #2b89f0;
+}
+
+.footer-info h5 {
+  color: #959595;
+  margin: 10px 0;
+  text-transform: uppercase;
+}
+
+.social-icons a {
+  color: #959595;
+  margin: 0 5px;
+  text-decoration: none;
+}
+
+.footer-icon {
+  font-size: 40px;
+  color: #2b98f0;
+  opacity: 0;
+  align-self: center;
+  transition: transform 2s ease, opacity 2s ease;
+}
+
+.footer-icon:hover {
+  transform: rotate(-90deg);
+}
+
+.team-member:hover .footer-icon {
+  opacity: 1;
+}
+
 /* End: Team Section */
